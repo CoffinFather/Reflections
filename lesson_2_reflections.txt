@@ -10,5 +10,8 @@ The git directory is where git stores the metadata and object databse for your p
 The working directory is a single checkout of one version of the project, it is the set of files you are currently working with. These files are pulled out of
 the compressed database in the Git directory and placed on disk for you to use or modify.
 
-The staging are is a file, generally contained in your Git directory, that stores information about what will go into your next commit.
+The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+First add files related to the first logical change using git add, then git commit. Then add files related to the second logical change using git add, then git commit, etc.
