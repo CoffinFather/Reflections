@@ -22,4 +22,7 @@ What are some situations when branches would be helpful in keeping your history 
 
   I'm planning on using branches to have a starting point of a complex project that needs different flavors, but the same underlying codebase.
   Branches would help by letting me have a core project to start from, then I could easily build different versions on different branches.
-  
+
+How do the diagrams help you visualize the branch structure?
+
+  Using git log --graph helped me see where in the projects history certain branches were created.
