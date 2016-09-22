@@ -5,7 +5,7 @@ You need to do it to create (initialize) your repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The git directory is where git stores the metadata and object databse for your project.
+The git directory is where git stores the metadata and object database for your project.
 
 The working directory is a single checkout of one version of the project, it is the set of files you are currently working with. These files are pulled out of
 the compressed database in the Git directory and placed on disk for you to use or modify.
@@ -15,3 +15,11 @@ The staging area is a file, generally contained in your Git directory, that stor
 How can you use the staging area to make sure you have one commit per logical change?
 
 First add files related to the first logical change using git add, then git commit. Then add files related to the second logical change using git add, then git commit, etc.
+
+//Switched from using freaking vim to atom.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+  I'm planning on using branches to have a starting point of a complex project that needs different flavors, but the same underlying codebase.
+  Branches would help by letting me have a core project to start from, then I could easily build different versions on different branches.
+  
