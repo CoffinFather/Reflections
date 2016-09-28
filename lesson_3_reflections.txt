@@ -5,4 +5,7 @@ local?
     1. Working with other people on the same project.
     2. You are working on the same project from multiple computers/locations.
     3. You could use a remote repository as another backup system.
-    
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+  If you are working with other programmers, it wouldn't be helpful to have your files changed when you aren't expecting it.
